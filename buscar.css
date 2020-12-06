@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+
+   }
+   h1 {
+    color: #fff;
+    text-align: center;
+}
+   body{
+    background: url(lamborghini.jpg);
+    background-size: cover;
+     background-position: center center;
+     background-attachment: fixed;
+   }
+ 
+   .container-table{
+       width: 90%;
+       background: url(lamborghini.jpg);
+       margin: 50px auto;
+       box-shadow: 0 0 20px rgb(0, 0, 0);
+
+       display: grid;
+       grid-template-columns: repeat(7, 1fr);
+       grid-auto-rows: 50px;
+
+   }
+   .table__title{
+       grid-column-start: 1;
+       grid-column-end: 8;
+       background:  rgb(53, 53, 53);
+       color: white;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-weight: bold;
+       font-size: 40px;
+   }
+   .table__header, .table__item{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .table__header{
+       font-weight: bold;
+       font-size: 18px;
+   }
+   .table__item{
+       padding: 3px;
+       font-size: 15px;
+   }
+   * {
+    box-sizing: border-box;
+
+   }
+   h1 {
+    color: #fff;
+    text-align: center;
+}
+   body{
+    background: url(lamborghini.jpg);
+    background-size: cover;
+     background-position: center center;
+     background-attachment: fixed;
+   }
+ 
+   .container-table{
+       width: 90%;
+       background: url(lamborghini.jpg);
+       margin: 50px auto;
+       box-shadow: 0 0 20px rgb(0, 0, 0);
+
+       display: grid;
+       grid-template-columns: repeat(7, 1fr);
+       grid-auto-rows: 50px;
+
+   }
+   .table__title{
+       grid-column-start: 1;
+       grid-column-end: 8;
+       background:  rgb(53, 53, 53);
+       color: white;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-weight: bold;
+       font-size: 40px;
+   }
+   .table__header, .table__item{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .table__header{
+       font-weight: bold;
+       font-size: 18px;
+   }
+   .table__item{
+       padding: 3px;
+       font-size: 15px;
+   }
+   .boton:last-child{
+    margin-bottom: 50px;
+}
+.boton{
+    text-decoration: none;
+    background: black;
+    color: #fff;
+    margin-top: 20px;
+    width:55%;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+}
+   .form-botones{
+    display: flex;
+    width: 30%;
+    max-width: 300px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
